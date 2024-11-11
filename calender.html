@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>December 2024 Calendar</title>
+  <style>
+    /* Basic table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+
+    /* Table header styling */
+    th {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+    }
+
+    /* Table cell styling */
+    td {
+      text-align: center;
+      padding: 15px;
+      font-size: 1.2em;
+      color: #333;
+      height: 60px;
+      width: 50px;
+      background-color: #fff;
+    }
+
+    /* Add borders to cells */
+    td, th {
+      border: 1px solid #ddd;
+    }
+
+    /* Styling for weekends (Saturday and Sunday) */
+    td:nth-child(1), td:nth-child(7) {
+      background-color: #f9f9f9;
+    }
+
+    /* Highlight today's date (for example, December 1st) */
+    td.today {
+      background-color: #ffeb3b;
+      font-weight: bold;
+    }
+
+    /* Hover effect for dates */
+    td:hover {
+      background-color: #e0f7fa;
+      cursor: pointer;
+    }
+
+    /* Styling for the table overall */
+    table {
+      max-width: 400px;
+      margin-top: 50px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Optional: Add a border around the entire table */
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    /* Ensure the layout stays responsive */
+    @media (max-width: 600px) {
+      td {
+        font-size: 1em;
+        padding: 10px;
+      }
+
+      th {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="today">1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
